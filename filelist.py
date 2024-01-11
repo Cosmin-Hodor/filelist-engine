@@ -37,8 +37,8 @@ class Filelist:
         self._login()
 
     def _login(self):
-        if self.credentials['username'] == 'your_username_here' or self.credentials['password'] == 'your_password_here':
-            self.logger.critical('Please provide a username or password.')
+        if self.credentials['username'] == 'write_here_your_account_username' or self.credentials['password'] == 'write_here_your_account_username':
+            self.logger.critical('Please define your Filelist credentials in filelist_credentials.json or credentials.py')
             self.critical_error = True
             return
 
